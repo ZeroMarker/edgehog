@@ -15,6 +15,10 @@ import androidx.compose.ui.window.application
 fun App() {
     var text by remember { mutableStateOf("Hello, World!") }
 
+    /**
+     * @param
+     * @return a {@code String}
+     */
     MaterialTheme {
         Button(onClick = {
             text = "Hello, Desktop!"
